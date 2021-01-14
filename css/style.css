@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,500;1,600;1,700;1,900&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h5 {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 700;
+}
+p {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+}
+.header-area {
+	background-image: url(../images/header-bg.png);
+	background-position: center;
+	background-size: cover;
+	padding-top: 20px;
+	min-height: 600px;
+}
+
+a.navbar-brand img {
+	max-width: 300px;
+}
+a.nav-link {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 600;
+	color: #333;
+	padding-right: 40px !important;
+}
+
+/* banner */
+.banner-text h1 {
+	font-size: 62px;
+	margin-bottom: 30px;
+}
+.banner-text h1 span {
+	color: #fabe4c;
+}
+.banner-text .style-2 {
+	color: #363958;
+}
+
+.banner-text p {
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+
+a.default-btn {
+	padding: 18px 30px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 15px;
+	color: #fff;
+	background: #a4bc46;
+	transition: 0.4s;
+}
+
+a.default-btn i {
+	margin-right: 7px;
+}
+a.default-btn:hover {
+	background: #fff;
+	color: #a4bc46;
+}
+.section-title h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #363958;
+	font-size: 40px;
+}
+h5.card-title {
+	color: #363958;
+	font-size: 25px;
+	margin-bottom: 12px;
+}
+
+.card-footer span {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fabe4c;
+}
+.single-bg {
+	background: #f7f7f7;
+	padding: 23px;
+	border-radius: 23px;
+}
+
+.card.h-100.shadow.product-card {
+	border: none;
+	border-radius: 23px !important;
+}
+.card-footer {
+	border: none;
+	background: none;
+}
+.img-wrap {
+	padding: 23px;
+}
+.img-wrap img {
+	display: block;
+	height: 320px;
+}
+.woman-jaket-area {
+	margin-bottom: 100px;
+}
+.about-area {
+	margin-top: 150px;
+	margin-bottom: 90px;
+}
+
+.about-icon img {
+	max-width: 80px;
+	margin-right: 40px;
+	margin-top: 6px;
+}
+
+.single-box.shadow {
+	margin-bottom: 30px;
+	padding: 13px;
+}
+
+.about-text h3 {
+	margin-bottom: 13px;
+	font-size: 23px;
+	color: #363958;
+}
+.about-img img {
+	width: 100%;
+	padding-top: 65px;
+}
+
+.author-card {
+	margin-top: -30%;
+	width: 100%;
+}
+.card {
+	transition: 0.4s;
+}
+#auhtors .card :hover {
+	background: #a4bc46;
+	color: #fff;
+}
+#auhtors h3 {
+	color: #a4bc46;
+}
+.social-icon .fab {
+	font-size: 27px;
+	color: #a4bc46;
+}
+.social-icon i:hover {
+	color: #fff;
+}
+.team-card {
+	margin-bottom: 130px;
+}
+
+#auhtors .card :hover i,
+#auhtors .card :hover h3,
+#auhtors .card :hover a {
+	color: #fff;
+}
+.authors-title {
+	text-align: left !important;
+	margin-bottom: 155px;
+}
+.contact-title {
+	text-align: left !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+	border: 1px solid #cacaca;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+span.input-group-text i {
+	padding: 9px 0px;
+}
+a:focus,
+input:focus {
+	outline: 0 solid;
+}
+.footer-bg {
+	background: #a4bc46;
+}
